@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Setup
+
+The product images come from the [Pexels API](https://www.pexels.com/api/). Copy `.env.example` to `.env` and set your key:
+
+```
+REACT_APP_PEXELS_API_KEY=your-key-here
+```
+
+Restart `npm start` after changing `.env`.
+
 ## Available Scripts
 
 In the project directory, you can run:

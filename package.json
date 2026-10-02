@@ -6,13 +6,13 @@
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.4.0",
-    "axios": "^0.21.0",
+    "axios": "^1.20.0",
     "bootstrap": "^4.5.3",
     "faker": "^5.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.1.0",
-    "react-scripts": "4.0.1",
+    "react-scripts": "^5.0.1",
     "react-toastify": "^6.1.0",
     "reactstrap": "^8.7.1",
     "web-vitals": "^0.2.4"
@@ -40,5 +40,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "overrides": {
+    "nth-check": "^2.1.1",
+    "resolve-url-loader": "^5.0.0",
+    "postcss": "^8.5.28",
+    "serialize-javascript": "^7.0.5",
+    "@tootallnate/once": "^2.0.1",
+    "uuid": "^11.1.1",
+    "webpack-dev-middleware": "^7.4.5"
   }
 }

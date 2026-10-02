@@ -4,7 +4,7 @@ import { random, commerce } from "faker";
 import { Container, Col, Row } from "reactstrap";
 import CartItem from "./CartItem";
 
-const apiKey = "563492ad6f91700001000001ea74fb5f8fe04a6899c2699cf0aee631";
+const apiKey = process.env.REACT_APP_PEXELS_API_KEY;
 
 const url = "https://api.pexels.com/v1/search?query=laptop&per_page=6&page=2";
 
